@@ -1,0 +1,268 @@
+.nav {
+  width: 100%;
+  height: 100px;
+  background-color: #6667ab;
+  position: fixed;
+  top: 10px;
+
+  /* position: relative;
+    top: 1px; */
+}
+
+.text1 {
+  color: yellow;
+  font-size: 85px;
+  text-align: center;
+  margin-top: 2px;
+  font-family: "Sansita Swashed", cursive;
+}
+
+.intparent {
+  display: flex;
+  justify-content: center;
+}
+
+.int {
+  margin: 150px;
+  width: 500px;
+  height: 100px;
+}
+
+::placeholder {
+  text-align: center;
+  font-size: 30px;
+}
+
+/* .note {
+  /* text-align: center; */
+/* position: absolute;
+  top: 310px;
+  left: 660px;
+  color: red;
+  font-size: 20px; */
+/* } */
+
+.btn {
+  width: 150px;
+  height: 100px;
+  position: absolute;
+  left: 680px;
+  top: 310px;
+  background-color: pink;
+  border-radius: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  color: darkblue;
+  font-weight: 700;
+}
+
+.show {
+  position: absolute;
+  left: 690px;
+  top: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: darkred;
+  font-weight: 700;
+}
+
+.showspace {
+  position: absolute;
+  left: 690px;
+  top: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: darkred;
+  font-weight: 700;
+}
+
+.onlyspace {
+  position: absolute;
+  left: 690px;
+  top: 550px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: darkred;
+  font-weight: 700;
+}
+
+.end {
+  width: 100%;
+  height: 100px;
+  background-color: wheat;
+  position: fixed;
+  bottom: 10px;
+}
+
+.m {
+  text-align: center;
+  font-size: 20px;
+  color: darkmagenta;
+  font-weight: 700;
+}
+
+.c {
+  text-align: center;
+  font-size: 20px;
+  color: darkmagenta;
+}
+
+body {
+  background-color: lightgoldenrodyellow;
+}
+
+/* @media (min-width: 1821px) {
+  .show {
+    left: 900px;
+    top: 350px;
+  }
+
+  .showspace {
+    left: 900px;
+    top: 400px;
+  }
+
+  .onlyspace {
+    left: 900px;
+    top: 450px;
+  }
+} */
+
+/* @media (max-width: 1750px) and (min-width: 1200px){ */
+/* .show {
+    left: 900px;
+    top: 350px;
+  }
+
+  .showspace {
+    left: 900px;
+    top: 400px;
+  }
+
+  .onlyspace {
+    left: 900px;
+    top: 450px;
+  }
+} */
+
+@media (max-width: 1200px) {
+  .show {
+    left: 90px;
+    top: 300px;
+  }
+
+  .showspace {
+    left: 90px;
+    top: 350px;
+  }
+
+  .onlyspace {
+    left: 90px;
+    top: 400px;
+  }
+}
+
+@media (max-width: 500px) {
+  .show {
+    top: 450px;
+    font-size: 20px;
+  }
+
+  .showspace {
+    top: 500px;
+    font-size: 20px;
+  }
+
+  .onlyspace {
+    top: 550px;
+    font-size: 20px;
+  }
+
+  .btn {
+    top: 600px;
+    left: 110px;
+  }
+  .text1 {
+    font-size: 70px;
+  }
+
+  .int {
+    margin-top: 300px;
+  }
+
+  .nav {
+    height: 200px;
+  }
+}
+
+@media (max-width: 300px) {
+  .int {
+    width: 200px;
+    margin-top: 250px;
+  }
+
+  .show {
+    top: 400px;
+    left: 10px;
+    font-size: 15px;
+  }
+
+  .showspace {
+    font-size: 15px;
+    top: 430px;
+    left: 10px;
+  }
+
+  .onlyspace {
+    font-size: 15px;
+    top: 460px;
+    left: 10px;
+  }
+
+  .btn {
+    top: 470px;
+    width: 100px;
+    height: 50px;
+    left: 150px;
+  }
+
+  .m {
+    font-size: 15px;
+  }
+
+  .text1 {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 360px) {
+  .int {
+    margin-top: 210px;
+  }
+
+  .show {
+    top: 350px;
+  }
+
+  .showspace {
+    top: 400px;
+  }
+
+  .onlyspace {
+    top: 450px;
+  }
+
+  .btn {
+    top: 490px;
+  }
+}
+
+
