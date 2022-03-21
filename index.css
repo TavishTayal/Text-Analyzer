@@ -265,4 +265,12 @@ body {
   }
 }
 
+@media (max-width:400px) {
+  .btn{
+    border-radius: 1000px;
+    width: 100px;
+    height: 50px;
+  }
+}
+
 
