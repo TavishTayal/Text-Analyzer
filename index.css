@@ -99,7 +99,7 @@
   height: 100px;
   background-color: wheat;
   position: fixed;
-  /* bottom: 10px; */
+  bottom: 1px;
 }
 
 .m {
